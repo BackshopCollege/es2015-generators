@@ -21,7 +21,9 @@ will read a file
   npm run read-file
 ```
 
-##### Error Handling Async with Try Catch
+##### Error Handling
+
+will use try-catch to capture exception 
 
 ```
   npm run error-handling
