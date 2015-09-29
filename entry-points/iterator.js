@@ -17,7 +17,7 @@ while (!i.done) {
   i = iter.next(i.value === 10);
 }
 
-console.log('Using FOR OF loop statement');
+console.log('\nUsing FOR OF loop statement\n');
 
 function *generator() {
   for (var i = 0 ; i < 10; i++) yield i;
