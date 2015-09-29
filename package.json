@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "description": "'ES2015 Generators'",
   "scripts": {
-    "webservice": "node webservice.js",
-    "error-handling": "node error-handling.js",
-    "read-file": "node read-file.js",
+    "start": "node usage.js",
+    "webservice": "node entry-points/webservice.js",
+    "error-handling": "node entry-points/error-handling.js",
+    "read-file": "node entry-points/read-file.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "tdantas",
   "license": "ISC",
   "dependencies": {
-    "wreck": "^6.3.0"
+    "wreck": "^6.3.0",
+    "cli-table": "^0.3.1"
   }
 }

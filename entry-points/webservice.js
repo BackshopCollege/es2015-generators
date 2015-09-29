@@ -1,6 +1,6 @@
-var Main = require('./lib/make-me-sync-buddy');
-var fs = require('./lib/gen-fs');
-var WS = require('./lib/ws');
+var Main = require('../lib/make-me-sync-buddy');
+var fs = require('../lib/gen-fs');
+var WS = require('../lib/ws');
 
 
 Main(function*() {
