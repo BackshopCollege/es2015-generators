@@ -8,7 +8,8 @@ var table = new Table({
 table.push(
   [ 'webservice', 'Fetching data from ws and writing to file'],
   [ 'read-file', 'reading file' ],
-  [ 'error-handling', 'using try catch to handle errors' ]
+  [ 'error-handling', 'using try catch to handle errors' ],
+  [ 'basic', 'generator syntax']
 );
 
 console.log(table.toString());
